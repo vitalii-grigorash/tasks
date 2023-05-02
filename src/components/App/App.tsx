@@ -7,6 +7,7 @@ import Todos from "../Todos/Todos";
 const App: React.FC = () => {
 
   const navigate = useNavigate();
+  
   const { pathname } = useLocation();
 
   return (
