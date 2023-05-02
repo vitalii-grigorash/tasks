@@ -1,0 +1,21 @@
+.todos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+.todos__container {
+    display: flex;
+    margin: 20px auto 0 0;
+}
+.todos__checkbox {
+    margin: auto 5px auto 0;
+    width: 20px;
+    height: 20px;
+}
+.todos__title {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+    margin: auto auto auto 0;
+}
